@@ -1,0 +1,204 @@
+.redtext
+          {
+              color: red;
+          }
+          .limetext
+          {
+              color: #eeff41;
+          }
+          .bluetext
+          {
+              color: #1565c0;
+          }
+          .blacktext
+                {
+                    color: black;
+                }
+          .orangetext
+          {
+              color: orange;
+          }
+          .whitetext
+          {
+              color:white;
+          }
+          
+          .news1
+          {
+                clear: both;
+                border:2px solid black;    
+	               float: right;
+              color: #d50000;
+                    width: 215px;
+                    height: 600px;
+                    background-color: #ffc107;
+              padding: 4px 4px 0 5px;
+              text-align: justify;
+	margin-right:12px;
+	margin-top:100px;
+          }
+          
+          
+          body{
+         background-color:  #ffebee;
+          }
+          
+          
+          section {
+  position: relative;
+              
+}
+
+section img {
+  position: absolute;
+}
+      
+          .bottom1
+          {
+              width: 200px;
+          }
+        
+     .top1 {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}  
+          
+          
+       .main
+          {
+              border:2px solid black;
+              margin: 0 auto;
+              margin-top: 200px;
+              margin-bottom: 300px;
+              top:100px;
+              width: 600px;
+              height: 150px;
+              font-size: 140%
+          }
+          
+          
+          
+          
+          
+          
+          	html	
+	 {
+  		scroll-behavior: smooth;	
+	}
+	           .top
+                {
+                    position: relative;
+                    z-index: 1;
+                }
+                .below
+                {
+                    position: relative;
+                    z-index: 0;
+                    margin-bottom: 0px;
+                }
+                .left
+                {
+                    float: left;
+                    margin: 0 auto;
+                    
+                }
+                .pics
+                {
+                border:2px solid black;    
+	float: right;
+                    width: 204px;
+                    height: 204px;
+                    background-color: aqua;
+	margin-right:20px;
+	margin-top:25px;
+
+                }
+                .area
+                {
+                   height: 45px;
+                    background-color: #ffab91;
+                }
+                .cardtext
+                {
+                    font-size: 1.3em;
+                }
+                
+                .align
+                {
+                    text-align: center !important;
+                }
+                .text
+                {
+                    text-align: justify;
+                    border: 10px solid #b71c1c;
+                    margin: 10px 240px 20px 200px;
+                    color: #607d8b;
+                    padding: 12px 12px;
+                    background-color: black;
+                }
+                .fix
+                {
+                    position: fixed !important;
+                }
+                .locate
+                {
+                    position: fixed;
+                    top: 400px;
+                    left: 1000px;
+                }
+                .heading
+                {
+                    position: fixed !important;
+                    background-color:#1a237e;
+                    border-bottom-left-radius: 60px;
+                    border-bottom-right-radius: 60px;
+                    border-top-left-radius: 60px;
+                    border-top-right-radius: 60px;
+                    padding-top: 0;
+                    width:100%;
+                    height: 79px;
+                    z-index: 2;
+                    margin-top: 0.5px;
+                    color: #1a237e;
+                    font-size: 320%;
+                    font-family: Georgia, serif;
+                    text-align: center;
+                }
+                .fixedwidth
+                {
+                    position: relative;
+                    width:587px;
+                    margin: 0 auto;
+                    padding-top: 85px;
+                    z-index: 1;            
+                }
+                .clear
+                {
+                    clear: both;
+                }
+                .navigate
+                {
+                    margin-left: 100px;
+                    margin-top: 100px;
+                    background-color: #78909c;
+                    padding-right: 10px;
+                    border: 5px solid black;
+                }
